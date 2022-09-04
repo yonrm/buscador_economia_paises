@@ -2,11 +2,23 @@
 <html lang="es">
 <head>
 <link type="text/css" rel="stylesheet" href="./recursos/css/estilos.css">
-
 </head>
 <body>
+	
 	<header>
-		</h2>Consultar datos macroeconómicos de países y regiones</h2>
+		<h2>Consultar datos macroeconómicos de países y regiones</h2>
 	</header>
+	<section>
+		<div id="desplegable">
+		<div class="pestana" id="pestana-paises">Países</div>
+		<div class="pestana" id="pestana-grpaises">Grupos de países</div>
+		<div class="pestana" id="pestana-mundo">Mundo</div>
+		</div>
+		<div id="contenido-pestana">
+		<div class="pestana" id="contenido-paises">Países</div>
+		<div class="pestana" id="contenido-grpaises">Grupos de países</div>
+		<div class="pestana" id="contenido-mundo">Mundo</div>
+		</div>
+	</section>
 </body>
 </html>
