@@ -16,83 +16,70 @@
 		<div id="contenido-pestana">
 		<div class="contenido" id="contenido-paises">
 			
-			<div class="pais">
+			<a href="https://www.epdata.es/datos/argentina-datos-macroeconomicos-datos-graficos/655" class="pais">
 				<img class="bandera" id="argentina">
-				<a>Argentina</a>
-			</div>
+				<p>Argentina</p>
+			</a>
 			
-			<div class="pais">
+			<a href="https://www.epdata.es/datos/brasil-datos-macroeconomicos-datos-graficos/659" class="pais">
 				<img class="bandera" id="brasil">
-				<a>Brasil</a>
-			</div>
+				<p>Brasil</p>
+			</a>
 			
-			<div class="pais">
+			<a href="https://www.epdata.es/datos/chile-datos-macroeconomicos-datos-graficos/657" class="pais">
 				<img class="bandera" id="chile">
-				<a>Chile</a>
-			</div>
+				<p>Chile</p>
+			</a>
 			
-			<div class="pais">
+			<a href="https://www.epdata.es/datos/ecuador-datos-macroeconomicos-datos-graficos/658" class="pais">
 				<img class="bandera" id="ecuador">
-				<a>Ecuador</a>
-			</div>
+				<p>Ecuador</p>
+			</a>
 			
-			<div class="pais">
+			<a href="https://www.epdata.es/datos/pib-espana-ine-contabilidad-nacional-trimestra/36/espana/106" class="pais">
 				<img class="bandera" id="espana">
-				<a>España</a>
-			</div>
+				<p>España</p>
+			</a>
 			
-			<div class="pais">
+			<a href="https://www.epdata.es/datos/estados-unidos-eeuu-datos-macroeconomicos-datos-graficos/660" class="pais">
 				<img class="bandera" id="eeuu">
-				<a>Estados Unidos</a>
-			</div>
+				<p>Estados Unidos</p>
+			</a>
 			
-			<div class="pais">
+			<a href="https://www.epdata.es/datos/mexico-datos-macroeconomicos-datos-graficos/656" class="pais">
 				<img class="bandera" id="mexico">
-				<a>México</a>
-			</div>
+				<p>México</p>
+			</a>
 			
-			<div class="pais">
+			<a href="https://www.epdata.es/datos/peru-datos-macroeconomicos-datos-graficos/654" class="pais">
 				<img class="bandera" id="peru">
-				<a>Perú</a>
-			</div>
+				<p>Perú</p>
+			</a>
 			
-			<div class="pais">
+			<a href="https://www.epdata.es/datos/reino-unido-datos-macroeconomicos-datos-graficos/661" class="pais">
 				<img class="bandera" id="reinounido">
-				<a>Reino Unido</a>
-			</div>
-			
-			<div class="pais">
-				<img class="bandera" id="reinounido">
-				<a>Reino Unido</a>
-			</div>
-			<div class="pais">
-				<img class="bandera" id="reinounido">
-				<a>Reino Unido</a>
-			</div>			<div class="pais">
-				<img class="bandera" id="reinounido">
-				<a>Reino Unido</a>
-			</div>			<div class="pais">
-				<img class="bandera" id="reinounido">
-				<a>Reino Unido</a>
-			</div>			
+				<p>Reino Unido</p>
+			</a>
+
 		</div>
 		<div class="contenido" id="contenido-grpaises">
 		
-			<div class="pais">
+			<a href="https://www.epdata.es/datos/argentina-datos-macroeconomicos-datos-graficos/655" class="pais">
 				<img class="bandera" id="ue">
-				<a>Unión Europea</a>
-			</div>
+				<p>Unión Europea</p>
+			</a>
 		
 		</div>
 		<div class="contenido" id="contenido-mundo">
 
-			<div class="pais">
-				<img class="bandera" id="previsiones-mundo">
-				<a>Previsiones sobre la economía mundial</a>
-			</div>		
+			<a href="https://www.epdata.es/datos/argentina-datos-macroeconomicos-datos-graficos/655" class="pais">
+				<img class="bandera" src="./recursos/iconos/mundo.svg">
+				<p>Previsiones sobre la economía mundial</p>
+			</a>	
 		</div>
 	</div>
 	</section>
+	<script src="./recursos/js/main.js"></script>
 </body>
 </html>
 

@@ -28,6 +28,21 @@ header {
 	font-family: 'Merriweather', serif;
 }
 
+a{
+	text-align: left;
+	color: #00bcd4;
+	text-decoration: none;
+}
+
+a:hover{
+  transform: scale(1.02);
+  color: #007d8d;
+}
+
+a:active{
+  color: #007d8d;
+}
+
 /*--------------- Pestañas superiores del buscador ---------------*/
 
 #desplegable{
@@ -44,6 +59,12 @@ header {
 	text-align: center;
 	border: 0.001rem white solid;
 	padding: 0.5rem 0rem 0.5rem 0rem;
+	cursor: pointer;
+}
+
+.pestana:hover{
+	background-color: #f5f9fb;
+	color: #00bcd4;
 }
 
 #pestana-paises{
@@ -72,8 +93,6 @@ header {
 	width: 100%;
 	height: 12.5rem;
 	background-color: #f5f9fb;
-	text-align: center;
-	color: #00bcd4;
 }
 
 /*--------------- Pestaña de paises ---------------*/
@@ -91,7 +110,7 @@ header {
 	width: 30%;
 	display: inline-flex;
 	line-height: 1.2rem;
-	justify-content: center;
+	justify-content: left;
 	align-items: center;
 }
 
@@ -153,6 +172,15 @@ header {
 	align-items: center;
 	display: none;
 }
+
+#contenido-grpaises:active{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	align-items: center;
+	display: none;
+}
 /*--------------- Iconos de las banderas de cada grupo de países ---------------*/
 
 #ue{
@@ -167,15 +195,12 @@ header {
 	justify-content: center;
 	text-align: left;
 	align-items: center;
-		display:none;
-
+	display: none;
 }
 
 /*--------------- Iconos de las banderas de cada grupo de países ---------------*/
 
 #previsiones-mundo{
-	background-image: url(../iconos/mundo.svg);
-	width: 1.9rem;
-	height: 1.9rem;
-	border: none !important;
+	width: 2rem;
+	height: 2rem;
 }
