@@ -1,2 +1,128 @@
-body {
+/*--------------- Generales ---------------*/
+
+html {
+	font-size: 16px;
 }
+
+body {
+	width: 100%;
+	height: auto;
+	font-family: 'Source Sans Pro', Arial,sans-serif;
+	font-weight: Bold;
+}
+
+/*--------------- Buscador: generalidades ---------------*/
+
+section {
+	width: 100%;
+	height: auto;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	color: #00bcd4;
+	font-family: 'Merriweather', serif;
+}
+
+/*--------------- Pestañas superiores del buscador ---------------*/
+
+#desplegable{
+	width: 100%;
+	height: 2.2rem;
+	display: flex;
+	justify-content: center;
+}
+
+.pestana{
+	width: 100%;
+	background-color: #00bcd4;
+	color: white;
+	text-align: center;
+	border: 0.001rem white solid;
+	padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+#pestana-paises{
+	width: 100%;
+}
+
+#pestana-grpaises{
+	width: 100%;
+}
+
+#pestana-mundo{
+	width: 100%;
+}
+
+/*--------------- Contenido de la pestaña ---------------*/
+
+#contenido-pestana{
+	width: 100%;
+	height: 17.5rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contenido{
+	width: 100%;
+	height: 17.5rem;
+	background-color: #f5f9fb;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#contenido-paises{
+	width: 100%;
+	display: flex;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+
+.pais{
+	width: 30%;
+	padding-top: 2rem;
+}
+
+.bandera{
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 100px;
+}
+
+#argentina{
+	background-image: url(../iconos/argentina.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 3.8rem auto;
+}
+
+
+#contenido-grpaises{
+	width: 100%;
+	visibility: hidden;
+}
+
+#contenido-mundo{
+	width: 100%;
+	visibility: hidden;
+}
+
+	<header>
+		<h2>Consultar datos macroeconómicos de países y regiones</h2>
+	</header>
+	<section>
+		<div id="desplegable">
+		<div class="pestana" id="pestana-paises">Países</div>
+		<div class="pestana" id="pestana-grpaises">Grupos de países</div>
+		<div class="pestana" id="pestana-mundo">Mundo</div>
+		</div>
+		<div id="contenido-pestana">
+		<div class="contenido" id="contenido-paises">Países</div>
+		<div class="contenido" id="contenido-grpaises">Grupos de países</div>
+		<div class="contenido" id="contenido-mundo">Mundo</div>
+		</div>
+	</section>

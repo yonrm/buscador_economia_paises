@@ -4,7 +4,6 @@
 <link type="text/css" rel="stylesheet" href="./recursos/css/estilos.css">
 </head>
 <body>
-	
 	<header>
 		<h2>Consultar datos macroeconómicos de países y regiones</h2>
 	</header>
@@ -15,10 +14,31 @@
 		<div class="pestana" id="pestana-mundo">Mundo</div>
 		</div>
 		<div id="contenido-pestana">
-		<div class="pestana" id="contenido-paises">Países</div>
-		<div class="pestana" id="contenido-grpaises">Grupos de países</div>
-		<div class="pestana" id="contenido-mundo">Mundo</div>
+		<div class="contenido" id="contenido-paises">
+			<div class="pais">
+				<img class="bandera" src="./recursos/iconos/argentina.svg">
+				<a>Argentina</a>
+			</div>
+			<div class="pais">
+				<img class="bandera" src="./recursos/iconos/brasil.svg">
+				<a>Brasil</a>
+			</div>
+			<div class="pais">
+				<img class="bandera" src="./recursos/iconos/chile.svg">
+				<a>Chile</a>
+			</div>
+
+		<div class="contenido" id="contenido-grpaises">Grupos de países</div>
+		<div class="contenido" id="contenido-mundo">Mundo</div>
 		</div>
 	</section>
 </body>
 </html>
+
+			
+			
+			<div>Brasil</div>
+	﻿Argentina	Brasil	Chile
+Ecuador	España	﻿Estados Unidos
+México	Perú	Reino Unido
+		</div>
