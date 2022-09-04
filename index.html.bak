@@ -73,7 +73,7 @@
 		<div class="contenido" id="contenido-mundo">
 
 			<a href="https://www.epdata.es/datos/argentina-datos-macroeconomicos-datos-graficos/655" class="pais">
-				<img class="bandera" src="./recursos/iconos/mundo.svg">
+				<img class="bandera" id="#previsiones-mundo" src="./recursos/iconos/mundo.svg">
 				<p>Previsiones sobre la economía mundial</p>
 			</a>	
 		</div>
