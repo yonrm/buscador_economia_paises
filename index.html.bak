@@ -16,7 +16,7 @@
 		<div id="contenido-pestana">
 		<div class="contenido" id="contenido-paises">
 			
-			<a href="https://www.epdata.es/datos/argentina-datos-macroeconomicos-datos-graficos/655 target="_parent" class="pais">
+			<a href="https://www.epdata.es/datos/argentina-datos-macroeconomicos-datos-graficos/655" target=_parent" class="pais">
 				<img class="bandera" id="argentina">
 				<p>Argentina</p>
 			</a>
