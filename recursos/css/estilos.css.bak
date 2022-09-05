@@ -13,6 +13,12 @@ body {
 	position: absolute;
 }
 
+@media (max-width: 400px){
+	html{
+		font-size: 18px;
+	}
+}
+
 /*--------------- Buscador: generalidades ---------------*/
 
 section {
@@ -60,6 +66,7 @@ a:active{
 	border: 0.001rem white solid;
 	padding: 0.5rem 0rem 0.5rem 0rem;
 	cursor: pointer;
+	transition: 100ms linear;
 }
 
 .pestana:hover{
