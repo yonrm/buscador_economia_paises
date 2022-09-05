@@ -15,8 +15,9 @@ body {
 
 @media (max-width: 400px){
 	html{
-		font-size: 14px;
+		font-size: 10px;
 	}
+	
 }
 
 /*--------------- Buscador: generalidades ---------------*/
@@ -86,6 +87,13 @@ a:active{
 	width: 100%;
 }
 
+@media (max-width: 400px){
+	#desplegable{
+		font-size: 3.2rem;
+	}
+	
+}
+
 /*--------------- Contenido de la pestaña ---------------*/
 
 #contenido-pestana{
@@ -129,6 +137,14 @@ a:active{
 	background-position: center;
 	background-size: cover;
 	border: !important;
+}
+
+@media (max-width: 400px){
+	.bandera{
+		font-size: 1.9rem;
+		height: 1.3rem;
+	}
+	
 }
 
 /*--------------- Iconos de las banderas de cada pais ---------------*/
